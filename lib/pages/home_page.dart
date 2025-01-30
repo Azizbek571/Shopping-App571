@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:shopping_app571/config/images.dart';
+
+import '../config/imports.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override
@@ -21,16 +23,17 @@ class _HomePageState extends State<HomePage> {
             Row(children: [  
               Column(
                 children: [
-                  Image.asset('assets/images/veges.png',
+                  Image.asset(AppImages.veges,
                   height: 120,
                   width: 120,
+                  
                   ),
                   Text("Sabzavot va ko'katlar")
                 ],
               ),
                   
 
-              Image.asset('assets/images/veges.png',
+              Image.asset(AppImages.veges,
               width: 120,
               ),
             ],)

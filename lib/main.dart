@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:shopping_app571/pages/login_page.dart';
-import 'package:shopping_app571/theme/theme.dart';
+
+
+import 'config/imports.dart';
 
 void main() {
   runApp(const MyApp());
