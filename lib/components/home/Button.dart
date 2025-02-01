@@ -34,6 +34,7 @@ final Function onTap2;
             
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900),
             ),  
+            SizedBox(height: 5,),
             Row(children: [  
               InkWell(
                 onTap: (){
@@ -46,7 +47,7 @@ final Function onTap2;
                       borderRadius: BorderRadius.circular(15),
                       child: SizedBox(
                         height: 130,
-                        width: 165,
+                        width: 170,
                         
                         child: Image.asset(image,
                         fit: BoxFit.fill,
@@ -56,7 +57,7 @@ final Function onTap2;
                       ),
                     ),
                      Text(text2, 
-                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                      
                      ),
                   ],
@@ -71,10 +72,10 @@ final Function onTap2;
                   children: [
                     ClipRRect(
                       borderRadius: BorderRadius.circular(15),
-                      child: Container(
+                      child: SizedBox(
                         height: 130,
-                        width: 165,
-                        color: Colors.red,
+                        width: 170,
+                        // color: Colors.red,
                         child: Image.asset(image2,
                         fit: BoxFit.fill,
                                       
@@ -83,7 +84,7 @@ final Function onTap2;
                       ),
                     ),
                      Text(text3, 
-                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                      ),
                   ],
                 ),

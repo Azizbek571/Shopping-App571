@@ -14,4 +14,11 @@ class AppImages{
   static String tea3 = 'assets/images/tea3.jpg';
   static String tea2 = 'assets/images/tea2.jpg';
   static String enery = 'assets/images/energy.jpg';
+  static String cheese = 'assets/images/cheese.jpg';
+  static String qatiq = 'assets/images/qatiq.jpg';
+  static String yogurt = 'assets/images/yogurt.jpg';
+  static String milk = 'assets/images/milk.jpg';
+  static String egg = 'assets/images/egg.jpg';
+  static String egg2 = 'assets/images/egg2.jpg';
+
 }
