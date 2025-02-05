@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_app571/config/imports.dart';
 
-class HomeDrinksButton extends StatelessWidget {
-  final String waterdrinks, water, juice, tea, soda, energy, waterimage, juiceimage, teaimage, sodaimage, energyimage;
+class HomeSeafoodButton extends StatelessWidget {
+  final String waterdrinks, water, juice, tea,  waterimage, juiceimage, teaimage;
 
-final Function waterTap,juicetap, teatap, sodatap, energytap;
-  const HomeDrinksButton({
+final Function waterTap,juicetap, teatap;
+
+
+  const HomeSeafoodButton({
     required this.waterdrinks,
     required this.water,
     required this.juice,
     required this.juiceimage,
     required this.juicetap,
-    required this.soda,
-    required this.sodaimage,
-    required this.sodatap,
-    required this.energy,
-    required this.energyimage,
-    required this.energytap,
+  
+   
     required this.tea,
     required this.teaimage,
     required this.teatap,
@@ -107,65 +105,7 @@ final Function waterTap,juicetap, teatap, sodatap, energytap;
               ),
             ],
             ),
-            const SizedBox(height: 10),
-            
-             Row(children: [
-                InkWell(
-                  onTap: () {
-                    sodatap();
-                  },
-                  child: Column(children: [  
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(15),
-                    child: SizedBox(
-                       height: 100,
-                      width: 120,
-                      child: Image.asset(sodaimage,
-                       fit: BoxFit.cover,
-                       
-                       ),
-                       ),
-                  ),
-                   Text(soda,
-                  style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600)
-                  )
-                                        ],),
-                ),
-              const SizedBox(width: 10,),
-                InkWell(
-                  onTap: () {
-                    energytap();
-                  },
-                  child: Column(children: [  
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(15),
-                    child: SizedBox(
-                       height: 100,
-                      width: 150,
-                      child: Image.asset(energyimage,
-                       fit: BoxFit.cover,
-                                          
-                       
-                       ),
-                       ),
-                  ),
-                  
-                  Padding(
-                    padding: const EdgeInsets.only(left: 10),
-                    child: Text(energy,
-                    
-                                            
-                    style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600)
-                    ),
-                  )
-                                          ],),
-                ),
-              const SizedBox(width: 5,),
-              
-               
-              ],
-              ),
-        
+            const SizedBox(height: 5),    
           ],
         ),
       ),

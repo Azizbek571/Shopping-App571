@@ -20,5 +20,32 @@ class AppImages{
   static String milk = 'assets/images/milk.jpg';
   static String egg = 'assets/images/egg.jpg';
   static String egg2 = 'assets/images/egg2.jpg';
+  static String beef2 = 'assets/images/beef2.jpg';
+  static String beef = 'assets/images/beef.jpg';
+  static String sausages = 'assets/images/sausages3.jpg';
+  static String fish = 'assets/images/fish.jpg';
+  static String seafood = 'assets/images/seafood.jpg';
+  static String caviar = 'assets/images/caviar.jpg';
+  static String choco = 'assets/images/choco.jpg';
+  static String chocopie = 'assets/images/chocopie.jpg';
+  static String pechenye = 'assets/images/pechenye.jpg';
+  static String marmaled = 'assets/images/marmaled.jpg';
+  static String jam = 'assets/images/jam.jpg';
+  static String pasta = 'assets/images/pasta.jpg';
+  static String oil = 'assets/images/oil.jpg';
+  static String oil2 = 'assets/images/oil2.jpg';
+  static String souce = 'assets/images/souce.jpg';
+  static String sugar = 'assets/images/sugar.jpg';
+  static String sugar2 = 'assets/images/sugar2.jpg';
+  static String spices = 'assets/images/spices.jpg';
+  static String spices2 = 'assets/images/spices2.jpg';
+  static String teadry2 = 'assets/images/teadry2.jpg';
+  static String nescafe3 = 'assets/images/nescafe3.jpg';
+  static String nescafe2 = 'assets/images/nescafe2.jpg';
+  static String nescafe = 'assets/images/nescafe.jpg';
+  static String chips = 'assets/images/chips2.jpg';
+  static String porridge = 'assets/images/porridge.jpg';
+  static String breaduzbek = 'assets/images/breaduzbek.jpg';
+  static String sweats = 'assets/images/sweats2.jpg';
 
 }
